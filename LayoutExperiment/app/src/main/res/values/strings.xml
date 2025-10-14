@@ -4,4 +4,31 @@
     <string name="tablelayout">表格布局实验</string>
     <string name="relativelayout1">约束布局实验1</string>
     <string name="relativelayout2">约束布局实验2</string>
+    <string name="input_label">Input</string>
+    <string name="input_label_description">Input field label</string>
+    <string name="button_7">7</string>
+    <string name="button_8">8</string>
+    <string name="button_9">9</string>
+    <string name="button_divide">÷</string>
+    <string name="button_4">4</string>
+    <string name="button_5">5</string>
+    <string name="button_6">6</string>
+    <string name="button_multiply">×</string>
+    <string name="button_1">1</string>
+    <string name="button_2">2</string>
+    <string name="button_3">3</string>
+    <string name="button_add">+</string>
+    <string name="button_dot">.</string>
+    <string name="button_0">0</string>
+    <string name="button_equal">=</string>
+    <string name="button_subtract">-</string>
+    <string name="initial_value">0.0</string>
+    <string name="depart">DEPART</string>
+    <string name="space_stations">Space Stations</string>
+    <string name="flights">Flights</string>
+    <string name="rovers">Rovers</string>
+    <string name="dca">DCA</string>
+    <string name="mars">MARS</string>
+    <string name="one_way">One Way</string>
+    <string name="_1_traveller">1 Traveller</string>
 </resources>
