@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LayoutExperiment</string>
+    <string name="linearlayout">线性布局实验</string>
+    <string name="tablelayout">表格布局实验</string>
+    <string name="relativelayout1">约束布局实验1</string>
+    <string name="relativelayout2">约束布局实验2</string>
+</resources>
