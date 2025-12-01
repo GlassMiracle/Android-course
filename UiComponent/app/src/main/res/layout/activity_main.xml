@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".MainActivity">
+
+
+
+    <Button
+        android:id="@+id/simple_adapter_btn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/simple_adapter_demo"
+        app:layout_constraintBottom_toTopOf="@id/custom_dialog"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/custom_dialog"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/custom_dialog_demo"
+        app:layout_constraintBottom_toTopOf="@id/xml_menu_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/simple_adapter_btn" />
+
+    <Button
+        android:id="@+id/xml_menu_btn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/xml_menu_demo"
+        app:layout_constraintBottom_toTopOf="@id/action_context_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/custom_dialog" />
+
+    <Button
+        android:id="@+id/action_context_btn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/action_context_demo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xml_menu_btn" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

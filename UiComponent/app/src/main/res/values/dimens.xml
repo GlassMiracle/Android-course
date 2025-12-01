@@ -1,0 +1,5 @@
+<resources>
+    <!-- 默认屏幕边距，根据 Android 设计指南。 -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+</resources>
