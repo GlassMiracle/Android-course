@@ -10,6 +10,7 @@
 - CustomDialogDemo - 演示自定义对话框的实现
 - XmlMenuDemo - 演示如何使用XML文件定义菜单
 - ActionContextDemo - 演示ActionMode形式的上下文菜单
+
   ![1.png](screenshots/1.png)
 
 
